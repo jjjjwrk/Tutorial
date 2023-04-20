@@ -27,6 +27,7 @@ body {
 }
 .studio-logo {
   color: #2e2f42;
+  font-family: "Raleway"; sans-serif;
 }
 
 .menu-nav {
@@ -36,7 +37,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.menu-nav :hover{
+.menu-nav:hover{
  color:#404bbf ; 
 }
 .menu-nav:focus{
@@ -101,7 +102,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 .features-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.1;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -174,7 +175,6 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   list-style: none
 }
 .bottom-portfolio{
-font-family: 'Roboto';sans-serif;
 background-color: #F4F4FD;
 font-weight: 500;
 font-size: 16px;
