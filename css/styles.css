@@ -175,7 +175,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   list-style: none
 }
 .bottom-portfolio{
-font-family: "Roboto", sans-serif
+font-family: "Roboto", sans-serif;
 background-color: #F4F4FD;
 font-weight: 500;
 font-size: 16px;
@@ -210,4 +210,7 @@ color: #434455;
 
 .logotype{
   font-family: 'Raleway', sans-serif
+}
+.titlesec{
+  line-height: 1.11
 }
