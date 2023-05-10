@@ -12,55 +12,64 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- ===HEADER=== -->
     <header>
-      <nav>
-        <a class="link logotype web-logo" href="./index.html"
-          >Web<span class="studio-logo">Studio</span></a
-        >
-        <ul class="list">
-          <li>
-            <a class="link menu-nav" href="./index.html">Studio</a>
-          </li>
-          <li>
-            <a class="link menu-nav" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li>
-            <a class="link menu-nav" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="contact-menu">
-        <ul class="list">
-          <li>
-            <a class="link contact-info" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="link contact-info" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container flex-container">
+        <nav class="page-nav">
+          <a class="link logotype web-logo" href="./index.html"
+            >Web<span class="studio-logo">Studio</span></a
+          >
+          <ul class="list header-container">
+            <li class="menu-item">
+              <a class="link menu-nav" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a class="link menu-nav" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-item">
+              <a class="link menu-nav" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="contact-menu">
+          <ul class="list header-container">
+            <li>
+              <a class="link contact-info" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="link contact-info" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <!-- ===HEADER/=== -->
     <main>
       <!-- MAIN SECTION -->
-      <section class="solution-business">
-        <h1 class="main-title">Effective Solutions for Your Business</h1>
-        <button class="bottom" type="button">Order Service</button>
+      <div class="">
+        <section class="solution-business">
+          <h1 class="main-title">Effective Solutions for Your Business</h1>
+          <button class="bottom" type="button">Order Service</button>
+        </section>
+      </div>
       </section>
       <!-- MAIN SECTION/ -->
 
       <section class="feature-section">
         <!-- FEATURES -->
-        <h2 hidden class="list">features</h2>
-        <ul class="list">
+        <div class="container">
+          <h2 hidden class="list">features</h2>
+        <ul class="list list-features">
           <li>
             <h3 class="features-title">Strategy</h3>
             <p class="features-desctiption">
@@ -90,14 +99,17 @@
             </p>
           </li>
         </ul>
+        </div>
+        
       </section>
       <!-- FEATURES/ -->
 
       <!-- What are we doing -->
       <section>
-        <h2 class="section-titl titlesec">What are we doing</h2>
-        <ul class="list">
-          <li>
+        <div class="container">
+          <h2 class="section-titl titlesec">What are we doing</h2>
+        <ul class="list list-practise">
+          <li class="">
             <img
               src="./images/section2/img1.jpg"
               alt="stats"
@@ -122,50 +134,53 @@
             />
           </li>
         </ul>
+        </div>
       </section>
       <!-- What are we doing/ -->
 
       <!-- TEAM -->
       <section class="team">
-        <h2 class="section-titl titlesec">Our Team</h2>
-        <ul class="list">
-          <li class="first-master">
-            <img
-              src="./images/section3/img.jpg"
-              alt="photo master"
-              width="264"
-            />
-            <h3 class="master-name">Mark Guerrero</h3>
-            <p class="master-descr">Product Designer</p>
-          </li>
-          <li class="first-master">
-            <img
-              src="./images/section3/img1.jpg"
-              alt="photo master"
-              width="264"
-            />
-            <h3 class="master-name">Tom Ford</h3>
-            <p class="master-descr">Frontend Developer</p>
-          </li>
-          <li class="first-master">
-            <img
-              src="./images/section3/img2.jpg"
-              alt="photo master"
-              width="264"
-            />
-            <h3 class="master-name">Camila Garcia</h3>
-            <p class="master-descr">Marketing</p>
-          </li>
-          <li class="first-master">
-            <img
-              src="./images/section3/img3.jpg"
-              alt="photo master"
-              width="264"
-            />
-            <h3 class="master-name">Daniel Wilson</h3>
-            <p class="master-descr">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="section-titl titlesec">Our Team</h2>
+          <ul class="list master-list ">
+            <li class="first-master">
+              <img
+                src="./images/section3/img.jpg"
+                alt="photo master"
+                width="264"
+              />
+              <h3 class="master-name">Mark Guerrero</h3>
+              <p class="master-descr">Product Designer</p>
+            </li>
+            <li class="list first-master">
+              <img
+                src="./images/section3/img1.jpg"
+                alt="photo master"
+                width="264"
+              />
+              <h3 class="master-name">Tom Ford</h3>
+              <p class="master-descr">Frontend Developer</p>
+            </li>
+            <li class="first-master">
+              <img
+                src="./images/section3/img2.jpg"
+                alt="photo master"
+                width="264"
+              />
+              <h3 class="master-name">Camila Garcia</h3>
+              <p class="master-descr">Marketing</p>
+            </li>
+            <li class="first-master">
+              <img
+                src="./images/section3/img3.jpg"
+                alt="photo master"
+                width="264"
+              />
+              <h3 class="master-name">Daniel Wilson</h3>
+              <p class="master-descr">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- TEAM/ -->
     </main>
