@@ -32,9 +32,7 @@ img{display: block;}
 
 .container{
   width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1158px;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -108,7 +106,7 @@ img{display: block;}
   color: #434455;
   font-style: normal;
   margin-right: 39px;
-margin-left: auto;
+  margin-left: auto;
 }
 
 .contact-info:hover{
@@ -132,7 +130,6 @@ margin-left: auto;
   
 }
 .main-title {
-  display: flex;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -140,6 +137,10 @@ margin-left: auto;
   letter-spacing: 0.02em;
    color: #FFFFFF; 
    margin-bottom: 48px;
+   width: 496px;
+   height: 120px;
+   margin-left: auto;
+  margin-right: auto;
 }
 
  .button
@@ -153,10 +154,11 @@ letter-spacing: 0.04em;
   padding-right: 32px;
   padding-bottom: 16px;
   color: #FFFFFF;
-  background: #4D5AE5;
   margin-left: auto;
   margin-right: auto;
-
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 } 
 
 .buttom:hover{
@@ -263,7 +265,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
    color: #F4F4FD;
    margin-top: 16px; 
    margin-bottom: 100px;
-   width: 264px;
+   max-width: 264px;
 }
 .logo-studio{
   color: #F4F4FD;
@@ -279,17 +281,24 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   list-style: none
 }
 .bottom-portfolio{
+  display: flex;
+  margin-left:auto;
+  margin-right: auto;
+cursor: pointer;
 font-family: "Roboto", sans-serif;
 background-color: #F4F4FD;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-display: flex;
-align-items: center;
-text-align: center;
 letter-spacing: 0.04em;
 color: #4D5AE5;
 cursor: pointer
+background: #404BBF;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+
+
+
 }
 .bottom-portfolio:hover{
   background-color: #404BBF; color: #FFFFFF
@@ -318,3 +327,44 @@ color: #434455;
 .titlesec{
   line-height: 1.11
 }
+
+
+.button-list-portfolio{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 91px;
+  margin-bottom: 72px;
+  gap: 24px;
+}
+
+.bottom-portfolio{
+padding: 12px 24px;
+min-width: 69px;
+min-height: 48px;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+background: #F4F4FD;
+}
+
+.bottom-portfolio:hover, .bottom-portfolio:focus{
+  background: #404BBF;
+  color: #FFFFFF;
+}
+
+.app-list-port{
+  display: flex;
+flex-wrap: wrap;
+gap: 48px 24px;
+list-style: none;
+margin-bottom: 120px;
+}
+
