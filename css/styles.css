@@ -29,21 +29,14 @@ ul,ol{
 
 img{display: block;}
 
-button{cursor: pointer;
-  width: 169px;
-  height: 56px;
-  left: 636px;
-  top: 428px;
-  background: #4D5AE5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;}
 
 .container{
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: auto;
-  padding-right: auto;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 :root{
@@ -148,23 +141,29 @@ margin-left: auto;
    color: #FFFFFF; 
    margin-bottom: 48px;
 }
-.bottom {
-  font-family: "Roboto", sans-serif;
+
+ .button
+ {
+  display: flex;
+align-items: center;
+letter-spacing: 0.04em;
   cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
+  padding-left: 32px;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  color: #FFFFFF;
   background: #4D5AE5;
   margin-left: auto;
   margin-right: auto;
-}
-.bottom:hover{
+
+} 
+
+.buttom:hover{
     background: #404BBF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-.bottom:focus{
+.buttom:focus{
     background: #404BBF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -256,6 +255,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   
 }
 .final-text {
+  display: flex;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -263,6 +263,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
    color: #F4F4FD;
    margin-top: 16px; 
    margin-bottom: 100px;
+   width: 264px;
 }
 .logo-studio{
   color: #F4F4FD;
