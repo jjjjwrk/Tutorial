@@ -30,60 +30,32 @@ ul,ol{
 img{display: block;}
 
 
-.container{
-  width: 1158px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+
 
 :root{
   --web-logo:#4d5ae5;
 }
 
 /* HEADER */
-.flex-container{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
+
+
+
+
+
+
+.mg-menu-item{
+  margin-right: 0
 }
 
-.page-nav{
-  display: flex;
-  align-items: center;
-}
 
-.header-container{
-  display: flex;
-  align-items: center;
-}
 
-.logotype{
-  margin-right: 75px;
-}
 
-.web-logo {
-  font-family: "Raleway"; sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
 
-.menu-item:not(:last-child){
+/* .menu-item:not(:last-child){
   margin-right: 40px;
-}
+} */
 
-.studio-logo {
-  color: #2e2f42;
-  font-family: "Raleway"; sans-serif;
-}
+
 
 .menu-nav {
   font-weight: 500;
@@ -98,16 +70,7 @@ img{display: block;}
 .menu-nav:focus{
   color: #404bbf
 }
-.contact-info {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  font-style: normal;
-  margin-right: 39px;
-  margin-left: auto;
-}
+ 
 
 .contact-info:hover{
   color: #404bbf
@@ -116,7 +79,9 @@ img{display: block;}
   color: #404bbf
 }
 .contact-menu{
-  font-style: normal
+  font-style: normal;
+  display: flex;
+  /* margin-left: auto; */
 }
 /* HEADER/ */
 
@@ -367,4 +332,67 @@ gap: 48px 24px;
 list-style: none;
 margin-bottom: 120px;
 }
+/* HEADER */
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.container{
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px; 
+  padding-right: 15px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.page-nav{
+  display: flex;
+  align-items: center;
+  padding: 24px 0;
+}
+.logotype {
+    margin-right: 76px;
+  }
+
+  .web-logo {
+    font-family: "Raleway"; sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+  }
+.studio-logo { 
+  color: #2e2f42;
+  font-family: "Raleway"; sans-serif;
+  display: flex;
+  margin-right: 76px;
+}
+.header-container {
+  
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.menu-item {
+}
+.menu-nav {
+}
+.contact-menu {
+}
+.contact-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  } 
